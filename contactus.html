@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <style>
+          .error{
+            color: red;
+          }
+        </style>
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <nav
+            class="navbar navbar-expand-sm navbar-light bg-light"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/Black and orange Minimalist Education Logo.png" height="150px" alt=""></a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="dropdownId"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                                >Dropdown</a
+                            >
+                            <div
+                                class="dropdown-menu"
+                                aria-labelledby="dropdownId"
+                            >
+                                <a class="dropdown-item" href="#"
+                                    >Action 1</a
+                                >
+                                <a class="dropdown-item" href="#"
+                                    >Action 2</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input
+                            class="form-control me-sm-2"
+                            type="text"
+                            placeholder="Search"
+                        />
+                        <button
+                            class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit"
+                        >
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- cards -->
+       <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/pin.png" class="card-img-top"  height="20px" width="10px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Location</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/mail.png" class="card-img-top"  height="200px" width="15px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mail</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/phone-call.png" class="card-img-top" height="20px" width="20px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/24-hour-clock.png" class="card-img-top"  height="100px" width="20px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+         <!--form  -->
+         <div class="container"></div>
+        <h1 class="text-center">Contact Form</h1>
+        <form action="https://formspree.io/f/xzzjwrdy" method="POST" id="myform">
+         <div class="mb-3">
+            <input type="text" placeholder="Enter your Name" name="name"
+             class="form-control border border-primary w-25">
+         </div>
+         <div class="mb-3">
+            <input type="text" placeholder="Enter your Email" name="email"
+             class="form-control border border-primary w-25">
+         </div>
+         <div class="mb-3">
+            <input type="text" placeholder="Enter your Subject" name="subject"
+             class="form-control border border-primary w-25">
+         </div>
+         <div class="mb-3">
+            <textarea cols="10" rows="5" name="message"
+            class="form-control border border-primary w-25" ></textarea>
+         </div>
+         <div class="mb-3">
+            <button class="btn btn-primary rounded-pill" type="submit">Send Message</button>
+         </div>
+     </form>
+    </div>
+
+      <!-- map -->
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.7384557824034!2d67.07838437391457!3d24.838616396134018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c1289bd4b71%3A0x73a72e54c9c3014d!2sDefence%20view%20Phase%202%20Defence%20View%20Housing%20Society%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1760878482671!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <!-- footer -->
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+         <!-- jquery cdn -->
+     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- form validation -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+     <script>
+      jQuery("#myform").validate({
+        rules: {
+            name: {
+              required: true,
+              minlength: 3,
+            },
+            email: {
+                required: true,
+                email: true,
+            },
+
+            subject: {
+              required: true,
+              minlength: 5,
+            },
+             
+            message: {
+              required: true,
+              minlength: 50,
+            },
+
+            }
+        })
+     </script>
+    </body>
+</html>
